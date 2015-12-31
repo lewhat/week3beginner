@@ -1,0 +1,183 @@
+
+nav {
+	background-color: #fe7e00;
+	display:inline-block;
+	height: 50px;
+	width: 100%;
+	margin: 0px auto;
+}
+h4 {
+	position: relative;
+	left: 5%;
+	top: -50px;
+}
+nav img{
+	background-color: transparent;
+}
+nav h4 .orange {
+	color: #fbd18b;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+nav h4 .juice {
+	color: #e8cc9d;
+	font-family: "Dosis", sans-serif;
+	font-size: 15px;
+}
+nav sup{
+	color: #e8cc9d;
+}
+nav ul {
+	color: #e8d4b6;
+	
+}
+nav ul a{
+	color: #e8d4b6;
+}
+nav ul a:hover {
+	color: #000099;
+}
+nav ul li {
+	display: inline-block;
+	margin: 4px;
+	position: relative;
+	right: -80%;
+	top: -80px;
+	font-weight: bold;
+}
+.middle {
+	background-color: #f9f9f9;
+	margin: 0px auto;
+	width: 100%;
+	height: 500px;
+	position: relative;
+	top: -61px;
+}
+.searchbox {
+	float: right;
+	position: relative;
+	right: 10px;
+}
+.bigorange {
+	color: transparent;
+}
+.middle p {
+	position: relative;
+	left: 460px;
+	top: -300px;
+	font-size: 40px;
+	color: #e4b788;
+	font-family: "dosis";
+	width: 50%;
+	text-align: left;
+	
+}
+.middle img{
+	height: 400px;
+}
+
+.one {
+	font-weight: bolder;
+	font-family: sans-serif;
+	color: #ff9933;
+}
+.quote {
+	float: center;
+	background-color: #fe7e00;
+	color: #e8d4b6;
+	display: inline-block;
+	font-size: 15px;
+	position: relative;
+	left: 500px;
+	top: -320px;
+	text-decoration: none;
+	padding: 5px 20px;
+}
+.quote a {
+	color: #e8d4b6;
+	text-decoration: none;
+}
+.studies {
+	background-color: #7accc8;
+	display: inline-block;
+	font-size: 15px;
+	position: relative;
+	left: 550px;
+	top: -320px;
+	padding: 5px 20px
+}
+.studies a {
+	color: #e8d4b6;
+	text-decoration: none;
+}
+.web, .app {
+	color: #7accc8;
+	font-family: bold;
+}
+footer {
+	background-color:#7accc8;
+	clear: both;
+	height: 50px;
+	width: 100%;
+	margin: 0px auto;
+	padding:10px;
+	position: relative;
+	top: -61px;
+}
+@media (max-width: 1650px) {
+	nav, ul, li, footer{
+		width:100%;
+	}
+}
+@media (max-width: 1650px) {
+	nav {
+		height: 60px;
+	}
+}
+	
+@media (max-width: 1650px) {
+	.middle {
+		text-align: left;
+	
+}
+@media (max-width: 1550px) {
+	.middle p {
+		font-size: 20px;
+	}
+}
+@media (max-width: 1550) {
+	.quote a, .studies a {
+		width: 30%;
+	}
+}
+@media (max-width: 1300px) {
+	nav .item {
+		display: none;
+	}
+}
+@media (max-width: 850px) {
+	.case, .bigorange {
+		display: none;
+	}
+}
+@media (max-width: 850px) {
+	.middle p{
+		position: absolute;
+		top: 20%;
+		left:0%;
+	}
+}
+@media (max-width: 850px) {
+	.quote {
+		position: absolute;
+		top: 50%;
+		left: 0%;
+	}
+}
+@media (max-width: 850px) {
+	.studies {
+		position: absolute;
+		top: 50%;
+		left: 20%;
+	}
+}
